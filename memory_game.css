@@ -1,0 +1,46 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 400px;
+	border: 3px solid #73ad21;
+}
+
+body {
+	background-color: cadetblue;
+}
+
+#backdrop {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.75);
+	z-index: 10;
+	pointer-events: none;
+	display: none;
+}
+
+#backdrop.visible {
+	display: block;
+	pointer-events: all;
+}
+
+#restart {
+	width: 10em;
+	height: 3em;
+	position: relative;
+	left: 150px;
+	top: 10px;
+	border: 3px solid #73ad21;
+}
+
+#return {
+	width: 10em;
+	height: 3em;
+	position: relative;
+	left: 250px;
+	top: 10px;
+	border: 3px solid #73ad21;
+}

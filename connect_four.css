@@ -1,0 +1,65 @@
+.grid {
+    margin-top: 100px;
+    margin-left: 500px;
+    border: 8px solid gray;
+    border-radius: 5px 5px;
+    color: #1f1f34;
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 560px;
+    background-color: rgba(250, 235, 215, 0.89);
+}
+
+.grid div {
+    height: 80px;
+    width: 80px;
+}
+
+.player-one {
+    background-color: orangered;
+    border-radius: 40px;
+}
+
+.player-two {
+    background-color: darkblue;
+    border-radius: 40px;
+}
+
+h2 {
+    margin-left: 500px;
+    margin-top: 70px;
+    color: #1f1f34;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: #bdd2d2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#result {
+
+}
+
+#gameover {
+    margin:auto;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+
+}
+
+#text{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 50px;
+    color: red;
+}
